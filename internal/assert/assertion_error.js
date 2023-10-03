@@ -395,7 +395,7 @@ class AssertionError extends Error {
 
         // Only print a single input.
         if (res.length === 1) {
-          super(`${base} ${res[0]}`);
+          super(`${base} ${res[0]}\n`);
         } else {
           super(`${base}\n\n${res.join('\n')}\n`);
         }
